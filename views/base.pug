@@ -1,0 +1,22 @@
+doctype html 
+html
+  head
+    title TDA - The Dance Academy
+    block scripts
+    block style  
+  body
+      nav#navbar
+        ul 
+            div#logo
+                img.img(src="/static/logo.jpg", alt="")
+                p.name  TDA 
+            li #[a.navItems(href = '/') Home] 
+            li #[a.navItems(href = '/') About] 
+            li #[a.navItems(href = '/') services] 
+            li #[a.navItems(href = '/') Class info] 
+            li #[a.navItems(href = '/contact') Contact us] 
+  block content
+
+  block foot 
+    footer#footer
+        | Copyright © 2022 TheDanceAcademy.com | All Rights Reserved

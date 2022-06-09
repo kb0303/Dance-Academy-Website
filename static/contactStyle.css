@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+.contactForm{
+    background: linear-gradient(to bottom, rgb(254 0 0), black);
+    min-height: 80vh;
+    padding: 44px 0px;
+}
+h1{
+    text-align: center;
+    padding: 20px 0px;
+    color: white;
+    font-weight: bold;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 41px;
+}
+
+.myInput{
+    display: flex;
+    margin: 11.5px 0px;
+    width: 28%;
+    height: 37px;
+    border-radius: 20px;
+    font-size: 17.5px;
+    background:black;
+    color: white;
+    border: none;
+    text-align: center;
+    /* outline: none; */
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+.btn{
+    padding: 2px 20px;
+    background: linear-gradient(to bottom, rgb(254 0 0), black);
+    color: white;
+    font-weight: bold;
+    border-radius: 18px;
+    box-shadow: 0px 0px 2px 0px white;
+    font-size: 17px;
+    margin-top: 25px;
+    cursor: pointer;
+}

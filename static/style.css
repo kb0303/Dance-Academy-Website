@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=ZCOOL+QingKe+HuangYou&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Macondo', cursive;
+}
+
+#navbar{
+    background: black;
+    padding: 10px 0px;
+    position: sticky;
+    top: 0;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+#logo{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-right: 36px;
+    margin-left: 36px;
+    font-size: 18px;
+}
+#logo img{
+    height: 75px;
+    width: 66px;
+    filter: invert(1);
+}
+
+#navbar li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+#navbar li a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 8px 10px;
+    margin: 0px 18px;
+}
+#navbar li a:hover{
+    color: rgb(255, 70, 70) !important;
+}
+
+#introSection {
+    height: 700px;
+    background: url('../static/bg.jpg') no-repeat center center/cover;    
+    /* color: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#introSection div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#para-head{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    /* margin-top: 150px; */
+    margin-left: 75px;
+    font-size: 58px;
+    font-weight: bold;
+    background: linear-gradient(to top, rgb(255, 70, 70), white);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    height: 90px;
+}
+#para{
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    color: white;
+    font-size: 30px;
+    font-weight: bold; 
+    margin-bottom: 375px;
+}
+#para:hover{
+    background: linear-gradient(to top, rgb(255, 70, 70), white);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    cursor: pointer;
+}
+#missionSection {
+    height: 300px;
+    background: linear-gradient(to top, rgb(254 0 0), black);
+    color: white;
+}
+#missionSection h2{
+    text-align: center;
+    padding: 27px 0px ;
+    font-size: 28px;
+}
+#missionSection ul{
+    display: flex;
+}
+#missionSection li{
+    list-style: none;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    width: 25%;
+    height: 200px;
+    margin: auto;
+    padding: 12px 15px;
+    box-shadow: 0px 11px 49px 1px black;
+}
+#missionSection li h3{
+    text-align: center;
+    font-size: 25px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-img img{
+    height: 100px;
+    filter: invert(1);
+}
+.card-content{
+    text-align: center;
+}
+
+#sponsorSection{
+    height: 350px;
+    padding: 32px 0px;
+    background: linear-gradient(to bottom, rgb(254 0 0), black);
+    color: white;
+}
+#sponsorSection h2{
+    text-align: center;
+    padding: 27px 0px ;
+    font-size: 28px;
+}
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+}
+.sponsorImg{
+    height: 100%;
+    margin: 9px 60px;
+}
+#footer{
+    height: 60px;
+    background: black;
+    color: white;
+    padding: 27px 0px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
